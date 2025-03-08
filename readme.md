@@ -3,7 +3,7 @@
 ## Jalankan `Proyek_Analisis_Data.ipynb` File
 
 1. Downlod file ipynb nya,kemudian bukadi collab atau vscode
-2. install semua library yang diperlukan
+2. install semua library yang diperlukan "pip install pandas numpy matplotplib seaborn streamlit plotly"
 
 ## Jalankan streamlit
 
