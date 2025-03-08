@@ -54,6 +54,6 @@ st.write(
 
 # Watermark & Profile Picture
 st.sidebar.markdown("### Pembuat: Fadlan Dwi Febrio")
-profile_pic = Image.open("1111.jpg")  # Ganti dengan path foto profil yang sesuai
+profile_pic = Image.open("pp.png")  # Ganti dengan path foto profil yang sesuai
 st.sidebar.image(profile_pic, caption="Fadlan Dwi Febrio", width=150)
 st.sidebar.write("Email: mc189d5y1615@student.devacademy.id")
