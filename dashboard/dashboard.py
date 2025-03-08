@@ -53,10 +53,7 @@ st.write(
 )
 
 # Watermark & Profile Picture
-st.sidebar.image("1111.jpg", use_container_width=True)
-st.sidebar.title(
-    "Proyek Akhir Belajar Analisis Data dengan Python: Analisis Bike Sharing")
-st.sidebar.write("Nama: Arief Setiawan")
-st.sidebar.write(
-    "Email: [mc189d5y1641@student.devacademy.id](mailto:mc189d5y1641@student.devacademy.id)")
-st.sidebar.write("Id Dicoding: MC189D5Y1641")
+st.sidebar.markdown("### Pembuat: Fadlan Dwi Febrio")
+profile_pic = Image.open("1111.jpg")  # Ganti dengan path foto profil yang sesuai
+st.sidebar.image(profile_pic, caption="Fadlan Dwi Febrio", width=150)
+st.sidebar.write("Email: mc189d5y1615@student.devacademy.id")
